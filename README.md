@@ -1,0 +1,2 @@
+# Gonzo
+Gonzo, az aranybánya
