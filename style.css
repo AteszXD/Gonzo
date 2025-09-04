@@ -1,0 +1,7 @@
+body {
+    background-image: url(../web/bill_gates.png);
+    color: antiquewhite;
+    text-align: center;
+    font-size: 200%;
+    background-attachment: fixed;
+}
