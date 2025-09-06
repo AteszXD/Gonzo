@@ -1,5 +1,5 @@
 body {
-    background-image: url(../bill_gates.png);
+    background-image: url(../Gonzo-main/bill_gates.png);
     color: antiquewhite;
     text-align: center;
     font-size: 200%;
@@ -23,4 +23,9 @@ body {
     margin: 0;
     padding: 0;
     font-size: 16px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
 }
