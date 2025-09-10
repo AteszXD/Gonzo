@@ -39,13 +39,15 @@ def html(tetok, terulet):
                 <li><a href="kontakt.html">Kapcsolat</a></li>
             </ul>
         </nav>
-        <div class="user-input" style="margin:20px 0;">
-            <label for="hely">Tető kell? Mi Megcsináljuk!</label>
-            <input type="text" id="hely" placeholder="Írja be a várost/utcát">
-            <button id="kuldes">Küldés</button>
-        </div>
+        <div class="fade-in">
+            <div class="user-input" style="margin:20px 0;">
+                <label for="hely">Tető kell? Mi Megcsináljuk!</label>
+                <input type="text" id="hely" placeholder="Írja be a várost/utcát">
+                <button id="kuldes">Küldés</button>
+            </div>
         <h1>Tető-ár számító</h1>
         <p>Megadott terület: <b>{terulet:,.0f} m²</b></p>
+        </div>
         <table class="fade-in">
             <thead>
                 <tr>
