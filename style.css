@@ -1,10 +1,13 @@
 body {
     background-image: url(../Gonzo-main/bill_gates.png);
+    background-position: center;
     color: antiquewhite;
     text-align: center;
     font-size: 200%;
     background-attachment: fixed;
-    background-size: 100%;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
 }
 
 @keyframes fadeIn {
@@ -20,6 +23,11 @@ body {
 
 .fade-in {
   animation: fadeIn 1.2s ease-out forwards;
+}
+
+.logo {
+    width: 32px;
+    height: 32px;
 }
 
 .navbar {
@@ -43,4 +51,24 @@ body {
 .navbar ul li a {
     text-decoration: none;
     color: white;
+}
+
+.navbaractive {
+    font-weight: bold
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto 0 auto;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(8px);
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
 }
