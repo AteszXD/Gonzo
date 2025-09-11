@@ -15,8 +15,11 @@ body {
 
 .h2c {
   color: antiquewhite;
-  text-align: center;
   font-size: 200%;
+}
+
+.h2m {
+  margin-left: 25px;
 }
 
 .pc {
@@ -27,6 +30,12 @@ body {
 
 .ac {
   color: lightblue;
+}
+
+.h6c {
+  color: antiquewhite;
+  margin-left: 50px;
+  font-size: 65%;
 }
 
 .midl {
